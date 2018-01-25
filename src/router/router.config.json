@@ -1,0 +1,68 @@
+[
+    {
+        "path": "/",
+        "name": "layout",
+        "component": "components/layout",
+        "redirect": "/msg",
+        "children": [
+            {
+                "path": "msg",
+                "name": "msg",
+                "component": "components/msg",
+                "meta":{
+                    "mark":1
+                }
+            },
+            {
+                "path": "book",
+                "name": "book",
+                "component": "components/book",
+                "meta":{
+                    "mark":1
+                }
+            },
+            {
+                "path": "found",
+                "name": "found",
+                "component": "components/found",
+                "meta":{
+                    "mark":1
+                }
+            },
+            {
+                "path": "my",
+                "name": "my",
+                "component": "components/my",
+                "meta":{
+                    "mark":1
+                }
+            }
+        ],
+        "meta": {
+            "requireAuth": true
+        }
+    },
+    {
+        "path": "/chat",
+        "name": "chat",
+        "component": "components/msg_dialogue_layout",
+        "children": [
+            {
+                "path": "content/:title/:index",
+                "name": "content",
+                "component": "components/msg_content"
+            }
+        ],
+        "meta": {
+            "requireAuth": true
+        }
+    },
+    {
+        "path": "/login",
+        "name": "login",
+        "component": "components/login",
+        "meta": {
+            "requireAuth": false
+        }
+    }
+]
