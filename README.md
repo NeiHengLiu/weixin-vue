@@ -6,7 +6,7 @@
 > 前端 : Vue2 + Vue-Router + Vuex + vue-cil + Axios + Mock.js + mint-ui + webpack
 
 ## 演示二维码
-> ![演示二维码](https://github.com/NeiHengLiu/weixin-vue/blob/master/src/assets/mdImages/erweima.png)
+> ![演示二维码](https://github.com/NeiHengLiu/weixin-vue/blob/master/README/erweima.png)
 
 ## 演示地址
 > 演示地址:[点击查看](https://neihengliu.github.io/demo/weixin-vue)(调到手机模式下效果最好)
