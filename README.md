@@ -9,7 +9,7 @@
 > ![演示二维码](https://github.com/NeiHengLiu/weixin-vue/blob/master/src/assets/mdImages/erweima.png)
 
 ## 演示地址
-> 演示地址:[点击查看](https://neihengliu.github.io/weixin-view)(调到手机模式下效果最好)
+> 演示地址:[点击查看](https://neihengliu.github.io/demo/weixin-vue)(调到手机模式下效果最好)
 
 ## Build Setup
 
